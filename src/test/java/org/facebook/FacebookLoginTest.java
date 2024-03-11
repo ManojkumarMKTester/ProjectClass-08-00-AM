@@ -55,6 +55,10 @@ public class FacebookLoginTest extends BaseClasss {
         sysout("Manojkumar Mariyappan");
     
     }
-
+@Test
+    public void page() {
+        sysout("Manojkumar Mariyappan");
+    
+    }
 
     
