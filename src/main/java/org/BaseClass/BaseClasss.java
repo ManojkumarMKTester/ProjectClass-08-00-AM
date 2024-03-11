@@ -57,7 +57,9 @@ public class BaseClasss {
 		
 		return driver;	
 	}
-	
+	public static void pampoo(String url) {
+		driver.get(url);
+		driver.manage().window().maximize();
 	
 	// 2 Url Launch
 	public static void urlLaunch(String url) {
