@@ -22,6 +22,10 @@ private WebElement passwordInput;
 @FindBy(name = "re_password")
 private WebElement confirmPasswordInput;
 
+private void kumar() {
+System.out.println("Test Code");
+
+}
 
 @FindBy(name = "full_name")
 private WebElement fullname;
