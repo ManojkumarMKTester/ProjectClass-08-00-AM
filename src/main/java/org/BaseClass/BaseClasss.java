@@ -59,7 +59,10 @@ public class BaseClasss {
 	}
 	public static void pampoo(String url) {
 		driver.get(url);
-		driver.manage().window().maximize();
+		driver.manage().window().maximize();}
+	public static void Manoj(String url) {
+		System.out.println("Testcode");}
+	
 	
 	// 2 Url Launch
 	public static void urlLaunch(String url) {
