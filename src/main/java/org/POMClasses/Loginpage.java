@@ -23,6 +23,12 @@ public Loginpage(){
 	@FindBy(name="login")
 	private WebElement login;
 	
+	private void sysout() {
+System.out.println("GitHub Code Tranformed");
+	}
+	
+	
+	
 	@FindBy(id="reg_pages_msg")
 	private WebElement btn;
 	
